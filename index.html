@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+   <!--fonte do google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ae438df7a.js" crossorigin="anonymous" defer></script>
+    <script src="./js/script.js" defer ></script>
+    <title>to do list</title>
+</head>
+<body style="background-color: #000000cc;">
+    <main class="container" style=" height: 100vh; width: 100%;" >
+        <section class="main-cont">
+            <header>
+                <h1>TO DO LIST</h1>
+            </header>
+            
+            <form id="todo-form">
+                <h4>Adicione sua tarefa:</h4>
+                <div class="form-control">
+                    <input type="text" name="fazer" id="todo-input" placeholder="Qual a sua tarefa?">
+                    <button type="submit">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+            </form>
+
+            <form id="edit-form" class="">
+                <h4>edite sua tarefa:</h4>
+                <div class="form-control">
+                    <input type="text" id="edit-input">
+                    <button type="submit">
+                        <i class="fa-solid fa-check-double"></i>
+                    </button>
+                </div>
+                <button id="cancel-edit-btn">cancelar</button>
+            </form>
+
+            <div id="toolbar">
+                <div id="search">
+                    <h4>Pesquisar:</h4>
+                    <form class="form-control">
+                        <input type="text" placeholder="Buscar" id="search">
+                        
+                        <button id="erase-button">
+                            <i class="fa-solid fa-delete-left"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div id="filter">
+                    <h4> Filtrar</h4>
+                    <select id="filter-select">
+                        <option value="all">Todos</option>
+                        <option value="done">Feitos</option>
+                        <option value="todo">A fazer</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div id="todo-list">
+                <div class="todo">
+                    <h3>Estudar portugues</h3>
+                    <button class="finish-todo">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                    <button class="edit-todo">
+                        <i class="fa-solid fa-pen"></i>
+                    </button>
+                    <button class="delete-todo">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <div class="todo done">
+                    <h3>Estudar ingles</h3>
+                    <button class="finish-todo">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                    <button class="edit-todo">
+                        <i class="fa-solid fa-pen"></i>
+                    </button>
+                    <button class="delete-todo">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>

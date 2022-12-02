@@ -1,6 +1,6 @@
 # to-do-list
 
-to-do-list feita em html, css e javascript. Faltam ainda as duas funções de pesquisar e filtrar, porem to bem feliz que consegui dar uma avançada e conhecer um pouco mais de javascript  to com um probleminha no icone que ta sobrepondo o button e se vc clicar diretamente no icone não chama a função que deveria
+to-do-list feita em html, css e javascript. Faltam ainda as duas funções de pesquisar e filtrar, porem to bem feliz que consegui dar uma avançada e conhecer um pouco mais de javascript.
 
 link da aplicação : https://washinho1.github.io/to-do-list/
 

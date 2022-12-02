@@ -114,8 +114,11 @@ h4 {
 }
 
 #filter select {
-    color: #333;
     margin-top: 1rem;
+}
+
+#filter select option {
+    color: #333;
 }
 
 .todo {
@@ -129,6 +132,8 @@ h4 {
 }
 
 .todo h3{
+    max-width: 287px;
+    word-wrap:break-word;
     flex: 1;
 }
 
@@ -146,3 +151,4 @@ h4 {
     font-style: italic;
 
 }
+

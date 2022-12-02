@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/4ae438df7a.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">>
     <script src="./js/script.js" defer ></script>
     <title>to do list</title>
 </head>
@@ -25,7 +25,7 @@
                 <div class="form-control">
                     <input type="text" name="fazer" id="todo-input" placeholder="Qual a sua tarefa?">
                     <button type="submit">
-                        <i class="fa-solid fa-plus"></i>
+                        <i class="bi bi-plus"></i>
                     </button>
                 </div>
             </form>
@@ -35,7 +35,7 @@
                 <div class="form-control">
                     <input type="text" id="edit-input">
                     <button type="submit">
-                        <i class="fa-solid fa-check-double"></i>
+                        <i class="bi bi-check-all"></i>
                     </button>
                 </div>
                 <button id="cancel-edit-btn">cancelar</button>
@@ -48,7 +48,7 @@
                         <input type="text" placeholder="Buscar" id="search">
                         
                         <button id="erase-button">
-                            <i class="fa-solid fa-delete-left"></i>
+                            <i class="bi bi-x-octagon"></i>
                         </button>
                     </form>
                 </div>
@@ -68,31 +68,32 @@
                 <div class="todo">
                     <h3>Estudar portugues</h3>
                     <button class="finish-todo">
-                        <i class="fa-solid fa-check"></i>
+                        <i class="bi bi-check finish-todo"></i>
                     </button>
                     <button class="edit-todo">
-                        <i class="fa-solid fa-pen"></i>
+                        <i class="bi bi-pencil edit-todo"></i>
                     </button>
                     <button class="delete-todo">
-                        <i class="fa-solid fa-xmark"></i>
+                        <i class="bi bi-x-lg delete-todo"></i>
                     </button>
                 </div>
 
                 <div class="todo done">
                     <h3>Estudar ingles</h3>
                     <button class="finish-todo">
-                        <i class="fa-solid fa-check"></i>
+                        <i class="bi bi-check finish-todo"></i>
                     </button>
                     <button class="edit-todo">
-                        <i class="fa-solid fa-pen"></i>
+                        <i class="bi bi-pencil edit-todo"></i>
                     </button>
                     <button class="delete-todo">
-                        <i class="fa-solid fa-xmark"></i>
+                        <i class="bi bi-x-lg delete-todo"></i>
                     </button>
+
                 </div>
             </div>
         </section>
-
+            
     </main>
     
 </body>

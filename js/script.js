@@ -5,6 +5,7 @@ const todoList = document.querySelector('#todo-list');
 const editForm = document.querySelector("#edit-form");
 const editInput = document.querySelector("#edit-input");
 const cancelEditBtn = document.querySelector("#cancel-edit-btn");
+const oi = document.querySelector(".ornitorringo")
 
 let oldInputValue;
 
@@ -24,17 +25,17 @@ const saveTodo = (text) => {
     
     const doneBtn = document.createElement("button")
     doneBtn.classList.add("finish-todo")
-    doneBtn.innerHTML = '<i class="fa-solid fa-check"></i>'
+    doneBtn.innerHTML = '<i class="bi bi-check finish-todo"></i>'
     todo.appendChild(doneBtn)
 
     const editBtn = document.createElement('button')
     editBtn.classList.add("edit-todo")
-    editBtn.innerHTML = '<i class="fa-solid fa-pen"></i>'
+    editBtn.innerHTML = '<i class="bi bi-pencil edit-todo"></i>'
     todo.appendChild(editBtn)
 
     const deleteBtn = document.createElement('button')
     deleteBtn.classList.add("delete-todo")
-    deleteBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>'
+    deleteBtn.innerHTML = '<i class="bi bi-x-lg delete-todo"></i>'
     todo.appendChild(deleteBtn)
     
     todoList.appendChild(todo);
